@@ -1,4 +1,6 @@
 #single line of string type, signle quote or double qoute
+from typing import Concatenate
+
 name = "Guled mohamed"
 print(name)
 
@@ -18,3 +20,17 @@ print(location.lower())
 print(location.upper())
 print(location.count('H'))
 print(location.find('Hargeisa'))
+
+# string Concatenate and formats 
+
+org = "Hello"
+org_name = "Shaqodoon org"
+
+# string Concatenate 1
+msg1 = org + ', ' + org_name +' welcome'
+
+# string Concatenate 2
+msg2 = '{}, {}. welcome!'.format(org, org_name)
+
+print(msg1)
+print(msg2)
