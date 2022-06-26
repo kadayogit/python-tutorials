@@ -27,10 +27,10 @@ org = "Hello"
 org_name = "Shaqodoon org"
 
 # string Concatenate 1
-msg1 = org + ', ' + org_name +' welcome'
+msg = org + ', ' + org_name +' welcome'
 
 # string Concatenate 2
 msg2 = '{}, {}. welcome!'.format(org, org_name)
 
-print(msg1)
+print(msg)
 print(msg2)
